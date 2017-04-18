@@ -1,0 +1,65 @@
+body {
+    background-color:#2E5E42;
+}
+#myCanvas{
+   border:1px solid black; 
+}
+.mobile_controls{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.arrow_controls {
+    width: 40px;
+    height: 40px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: black;
+    background-color:green;
+    font-size: 220%;
+    font-position: center;
+    
+    text-align: center;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom:0px;
+
+    /*font-family: 'Press Start 2P';*/
+}
+.arrow_controls:active{
+    background: #f8f8f8;
+}
+#btnFire{
+    border-style:solid;
+    border-width: 5px;
+    border-color: black;
+    background-color:red;
+    font-size: 220%;
+    font-position: center;
+    
+    text-align: center;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#btnFire:active{
+    background: #f8f8f8;
+}
+#killShots{
+    border-style:solid;
+    border-width: 5px;
+    border-color: black;
+    background-color:orange;
+    font-size: 220%;
+    font-position: center;
+    
+    text-align: center;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#killShots:active{
+    background: #f8f8f8;
+}
