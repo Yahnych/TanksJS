@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tank.js VS Edition</title>
+        <script src="https://cdn.rawgit.com/bureyburey/Explosion/master/explosion.pr.js"></script>
+        <script src="index.js"></script>
+        <link href="style.css">
+    </head>
+    <body>
+    <label style="display:none"><input id="chkTrajectory" type="checkbox" />Show Trajectory</label>
+    <label style="display:none"><input id="chkWind" type="checkbox" />Enable Wind</label>
+        <canvas id="myCanvas"></canvas>
+        
+         <table class="mobile_controls" id="tbl_arrows" align="center" >
+                    <tr>
+                        <td></td>
+                        <td><div class="arrow_controls" id="mobile_up">⇧</div></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><div class="arrow_controls" id="mobile_left">⇦</div></td>
+                        <td><div class="arrow_controls" id="mobile_down">⇩</div></td>
+                        <td><div class="arrow_controls" id="mobile_right">⇨</div></td>
+                        <td><div id="btnFire">FIRE</div></td>
+                        <td><div id="killShots">CLR</div></td>
+                    </tr>
+                    </table>
+                    <div id="debug"></div>
+    </body>
+</html>
